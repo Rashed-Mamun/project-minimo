@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Raleway:300,400,500,700&display=swap');
+
+/*
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+*/
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	color: #636363;
+}
+header{
+	padding: 10px 0;
+}
+
+.container{width: 1000px;
+	/*! background-color: #fffefe; */
+	margin: auto;
+	overflow: hidden;
+	}
+.logo{
+	width: 20%;
+	float: left;}
+
+.logo a{
+	padding: 15px;
+	display: inline-block;}
+
+nav{
+	width: 80%;
+	float: left;}
+
+nav ol{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: right;}
+
+nav ol li{
+	display: inline;
+	list-style: none;}
+
+nav ol li a{
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 15px;
+	display: inline-block;
+	color: #636363;
+}
+
+nav ol li a:hover{
+	color: #63636359;
+}
+
+/* article section*/
+.aricle-section{
+
+}
+article{
+
+	padding: 50px;
+}
+h6{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 0;
+}
+h1{
+
+	font-size: 35px;
+	text-transform: capitalize;
+	margin: 0;
+	padding: 20px 0;
+}
+p{
+	font-size: 18px;
+	padding: 10px 0;
+}
+.comment{font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 0;
+	color: #636363;
+	text-decoration: none;} 
+
+	/* post section*/
+.post-section{}
+
+.post{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding: 0 30px;}
+
+.post img{
+	width: 100%;
+	display: block;}
+ 
+
+ /* footer menu*/
+
+footer{
+
+	background-color: #dcd7d7;
+}
+.footer-menu{
+
+	width: 50%;
+	float: left;
+}
+.footer-menu ol{
+
+	margin: 0;
+	padding: 0;
+}
+
+.footer-menu ol li{
+
+	float: left;
+	padding: 20px;
+	text-transform: uppercase;
+	list-style: none;
+}
+.footer-menu ol li a{
+
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 15px;
+	display: inline-block;
+	color: #636363;
+	font-weight: 500;
+}
+
+.footer-menu ol li a:hover{
+	color: #63636359;
+}
+
+.social-menu{
+	
+	width: 50%;
+	float: left;
+}
+.social-menu ol{
+	
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.social-menu ol li{
+	
+	list-style: none;
+	display: inline-block;
+	padding: 15px;
+}
+.social-menu ol li a{
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 20px;
+	display: inline-block;
+	color: #636363;
+	font-weight: 500;
+}
+
+.social-menu ol li a:hover {
+	color: #63636359;
+
+}
